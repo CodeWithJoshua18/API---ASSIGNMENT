@@ -44,8 +44,8 @@ class LibraryMember:
 # Create instances and demonstrate functionality
 if __name__ == "__main__":
     # Example usage
-    book1 = Book("1984", "George Orwell")
-    book2 = Book("To Kill a Mockingbird", "Harper Lee")
+    book1 = Book("Into the abyss", "George Orwell")
+    book2 = Book("5o shades of Gray", "Harper Lee")
     member = LibraryMember("Tommy")
 
     member.borrow_book(book1)

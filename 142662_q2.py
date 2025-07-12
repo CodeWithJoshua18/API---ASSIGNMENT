@@ -46,7 +46,7 @@ if __name__ == "__main__":
     instructor = Instructor("Dr. Smith")
 
     # Create a student
-    student1 = Student("Allan")
+    student1 = Student("Shawn")
     student2 = Student("Beth")
 
     # Add the student to the instructor's list
@@ -54,8 +54,8 @@ if __name__ == "__main__":
     instructor.add_student(student2)
 
     # Add assignments and grades
-    instructor.add_grade(student1, "Math Assignment 1", 95)
-    instructor.add_grade(student2, "Science Project", 88)
+    instructor.add_grade(student1, "Math Assignment", 95)
+    instructor.add_grade(student2, "OOP Project", 88)
 
     # Display the student's grades
     instructor.display_grades(student1)
